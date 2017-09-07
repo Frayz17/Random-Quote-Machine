@@ -10,7 +10,6 @@ document.getElementById('quote-button').addEventListener("click", function(event
 // tweet out current quote
 document.getElementById('twitter-icon-quote').addEventListener("click", function(event) {
 	var quoteString = document.getElementById('quote-text').textContent;
-	console.log(quoteString);
 	window.open("https://twitter.com/intent/tweet?text=" + quoteString);
 })
 
